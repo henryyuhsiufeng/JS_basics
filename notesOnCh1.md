@@ -4,6 +4,7 @@
 # Values & Types
 - JavaScript has tyoed values, not typed variables. 
 
+```
 var a;
 typeof a;				// "undefined"
 
@@ -24,6 +25,7 @@ typeof a;				// "undefined"
 
 a = { b: "c" };
 typeof a;				// "object"
+```
 
 - Only values have types in JavaScript; variables are just simple containers for those values.
 
