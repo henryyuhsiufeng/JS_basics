@@ -2,7 +2,7 @@
 #### These are just my notes I use for my personal reference while learning from "You Don't Know JavaScript"
 
 # Values & Types
-- JavaScript has tyoed values, not typed variables. 
+- JavaScript has typed values, not typed variables. 
 
 ```
 var a;
@@ -35,6 +35,7 @@ typeof a;				// "object"
 # Objects 
 - Object type refers to a compound value where you can set properties (named locations) that each hold their own values of any type. This is perhaps one of the most useful value types in all of JavaScript.
 
+```
 var obj = {
 	a: "hello world",
 	b: 42,
@@ -48,10 +49,12 @@ obj.c;		// true
 obj["a"];	// "hello world"
 obj["b"];	// 42
 obj["c"];	// true
+```
 
 - Properties can either be accessed with dot notation (i.e., obj.a) or bracket notation (i.e., obj["a"]). Dot notation is shorter and generally easier to read, and is thus preferred when possible.
 
 # Objects
+```
 var arr = [
 	"hello world",
 	42,
@@ -64,3 +67,4 @@ arr[2];			// true
 arr.length;		// 3
 
 typeof arr;		// "object"
+```
