@@ -53,7 +53,7 @@ obj["c"];	// true
 
 - Properties can either be accessed with dot notation (i.e., obj.a) or bracket notation (i.e., obj["a"]). Dot notation is shorter and generally easier to read, and is thus preferred when possible.
 
-# Objects
+# Arrays
 ```
 var arr = [
 	"hello world",
