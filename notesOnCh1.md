@@ -68,3 +68,7 @@ arr.length;		// 3
 
 typeof arr;		// "object"
 ```
+
+- Arrays start with 0 index and have dynamic length. Could technically interchange the usage of arrays and objects, but it is considered improper. 
+- Use arrays for positioned values and objects for named properties
+
