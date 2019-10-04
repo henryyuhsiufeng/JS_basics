@@ -93,11 +93,12 @@ typeof arr;		// "object"
 Specific list of "falsy" values in JavaScript: 
 	```
 	"" 				// empty string
-	0, -0, NaN 		// invalid number
+	0, -0, NaN 			// invalid number
 	null, undefined
 	false
 	```
 Any value that's not on this "falsy" list is "truthy."
+
 	```
 	"hello"
 	42
