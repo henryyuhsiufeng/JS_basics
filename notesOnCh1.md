@@ -75,7 +75,8 @@ typeof arr;		// "object"
 - Functions are object subtypes, so it will return function and can have properties. 
 - Be sure the limit scope of properties for good conventions. 
 
-# Coercion
+# Comparing Values
+## Coercion
 - Explicit coercion is when it is obvious that a conversion from one type to another will occur.
 - Implicit coercion is when the type converison is not obvious and can happen as an indirect side effect.
 	- Implicit ex) 
@@ -85,6 +86,25 @@ typeof arr;		// "object"
  
 	a; 					// "2"
 	b; 					// 4 -- the number!
+	```
+
+## Truthy & Falsy
+- Occurs when non-boolean values are coerced to a boolean. 
+Specific list of "falsy" values in JavaScript: 
+	```
+	"" 				// empty string
+	0, -0, NaN 		// invalid number
+	null, undefined
+	false
+	```
+Any value that's not on this "falsy" list is "truthy."
+	```
+	"hello"
+	42
+	true
+	[ ], ["1", 2, 3] 		// arrays
+	{ }, { a: 42 }   		// objects
+	function foo() { .. }   // functions
 	```
 
 
