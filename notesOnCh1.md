@@ -100,6 +100,7 @@ Specific list of "falsy" values in JavaScript:
 Any value that's not on this "falsy" list is "truthy."
 
 	```
+	// these are all truthy 
 	"hello"
 	42
 	true
